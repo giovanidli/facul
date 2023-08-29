@@ -1,0 +1,29 @@
+.topheader {
+    padding: 10px;
+    background-color: black;
+    height: 48px;
+  }
+  
+  .language-section {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .language-text {
+    margin: 0;
+    margin-right: 100px; /* Espaço à direita do elemento <p> */
+    color: white;
+  }
+  
+  .language-icon {
+    margin-left: 5px;
+    color: white;
+  }
+  
+  .language-section:hover .language-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+  

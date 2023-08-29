@@ -1,0 +1,42 @@
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  .account-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #4285F4;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  

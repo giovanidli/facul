@@ -1,0 +1,40 @@
+.best-sellers {
+    border-bottom: 1px solid gray;
+  }
+  
+  .title {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .product-card {
+    flex: 1;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-name,
+  .product-price {
+    margin-top: 10px;
+  }
+  
+  .view-more {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  

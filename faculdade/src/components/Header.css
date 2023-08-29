@@ -1,0 +1,83 @@
+.header {
+  background-color: #CCCC;
+  padding: 10px; /* reduzido de 20px */
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu {
+  width: 70%;  /* reduzido de 80% */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;  /* reduzido de 15px */
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;  /* reduzido de 24px */
+  color: #ac8787;
+}
+
+.nav-item, .nav-item a {
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;  /* novo */
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.search-and-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 4px 6px;  /* reduzido de 5px 8px */
+  width: 120px;  /* reduzido de 150px */
+  border-radius: 1px;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  margin-left: 8px;  /* reduzido de 10px */
+  cursor: pointer;
+  font-size: 14px;  /* novo */
+}
+
+.search-container {
+  position: relative;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 35px 8px 8px;  /* reduzido de 10px 40px 10px 10px */
+  border: none;
+  background: transparent;
+}
+
+.search-input:focus, .search-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;  /* reduzido de 10px */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;  /* novo */
+}
