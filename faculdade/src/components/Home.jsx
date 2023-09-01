@@ -8,6 +8,7 @@ import Footer from './Footer.jsx';
 import Header from './Header.jsx';
 import LatestReleases from './LatestReleases.jsx';
 import Navbar from './Navbar.jsx';
+import Carrinho from './Carrinho.jsx';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <ExploreProducts />
             <LatestReleases />
             <Footer/>
+            <Carrinho/>
         </div>
     );
 }

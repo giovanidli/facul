@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import CrieSuaConta from './components/CrieSuaConta';
 import Login from './components/Login';
+import Carrinho from './components/Carrinho';
 function App() {
   return (
     
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
           <Route path="/register" element={<CrieSuaConta/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/cart" element={<Carrinho/>}/>
           {/* <Route path="/sobre" element={<Sobre/>}/> */}
         </Routes>
     </Router>

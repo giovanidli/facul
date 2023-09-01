@@ -1,6 +1,6 @@
 .header {
   background-color: #CCCC;
-  padding: 10px; /* reduzido de 20px */
+  padding: 10px; 
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .nav-menu {
-  width: 70%;  /* reduzido de 80% */
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,20 +17,19 @@
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 10px;  /* reduzido de 15px */
+  gap: 15px;
   align-items: center;
 }
 
 .nav-logo {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;  /* reduzido de 24px */
-  color: #ac8787;
+  font-size: 20px;  
 }
 
 .nav-item, .nav-item a {
   color: #888;
   cursor: pointer;
-  font-size: 14px;  /* novo */
+  font-size: 14px;
+  margin-left: 20px;
 }
 
 .nav-item:hover {
@@ -50,9 +49,9 @@
 }
 
 .icon {
-  margin-left: 8px;  /* reduzido de 10px */
+  margin-left: 10px;  /* reduzido de 10px */
   cursor: pointer;
-  font-size: 14px;  /* novo */
+  font-size: 20px;  /* novo */
 }
 
 .search-container {
