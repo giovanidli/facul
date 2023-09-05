@@ -1,0 +1,12 @@
+.estiloSobre {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo-style {
+    font-size: 20px;
+}

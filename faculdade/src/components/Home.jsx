@@ -9,6 +9,7 @@ import Header from './Header.jsx';
 import LatestReleases from './LatestReleases.jsx';
 import Navbar from './Navbar.jsx';
 import Carrinho from './Carrinho.jsx';
+import Sobre from './Sobre.jsx';
 
 const Home = () => {
     return (
@@ -21,8 +22,8 @@ const Home = () => {
             <BuildYourPC />
             <ExploreProducts />
             <LatestReleases />
-            <Footer/>
-            <Carrinho/>
+            <Footer />
+            <Carrinho />
         </div>
     );
 }
